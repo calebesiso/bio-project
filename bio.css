@@ -1,0 +1,284 @@
+body {
+    margin-bottom: 50px;
+}
+
+p {
+    margin:0;
+    font-family: sans-serif;
+}
+
+div {
+    font-family: sans-serif;
+}
+
+.name-header {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.caleb-header-name {
+    font-size: 25px;
+}
+
+.esiso-header-name {
+    color: rgb(27, 86, 153);
+}   
+
+.welcome-header {
+    font-size: 17px;
+    margin-top: 3px;
+    color: rgb(92, 92, 92);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding-bottom: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(199, 199, 199);
+}
+
+
+.header-text-button {
+    color: rgb(44, 44, 44);
+    border: none;
+    background-color: transparent;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    margin-right: 5px;
+    transition: 0.15s;
+}
+
+.header-text-button:hover {
+    background-color: rgb(4, 4, 124);
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    border-radius: 2px;
+    border: none;
+}
+
+.header-left {
+    margin-left: 60px;
+}
+
+.header-right {
+    margin-right: 100px;
+    align-items: center;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.twitter-icon {
+    height: 22px;
+}
+
+.linkedin-icon {
+    height: 22px;
+}
+
+.github-icon {
+    height: 22px;
+}
+
+.bio {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 80px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.layer2 {
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.profile-picture {
+    height: 555px;
+    width: 555px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text-layer2 {
+    margin-left: 45px;
+    font-size: 20px;
+    line-height: 35px;
+    width: 500px;
+    color: rgb(27, 27, 27);
+}
+
+.housing-body-div {
+    display: flex;
+    justify-content: center;
+}
+
+.layer3-section1 {
+    display: flex;
+    align-items: center;
+}
+
+.layer3-text {
+    margin-right: 12px;
+}
+
+.download-button {
+    background-color: rgb(44, 44, 44);
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+}
+
+.layer3-text:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: darkblue;
+}
+
+.download-button:hover {
+    cursor: pointer;
+    background-color: rgb(175, 3, 3);
+    text-decoration: underline;
+    color: darkblue;
+    transition: 0.2s;
+}
+
+.layer4 {
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.layer4-images-icon {
+    height: 35px;
+    border-radius: 20px;
+    object-position: center;
+    transition: transform 0.1s;
+    cursor: pointer;
+}
+
+.layer4-images-icon:hover {
+    transform: scale(1.2);
+    border-radius: 20px;
+    object-position: center;
+}
+
+.main-text {
+    line-height: 35px;
+    font-size: 18px;
+    width: 680px;
+    margin-bottom: 20px;
+}
+
+.footer-div {
+    display: flex;
+    padding-top: 70px;
+    margin-top: 60px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(199, 199, 199);
+}
+
+.footer1 {
+    margin-left: 70px;
+    line-height: 35px;
+    font-size: 18px;
+    color: rgb(0, 0, 51);
+}
+
+.footer2 {
+    line-height: 35px;
+    color: rgb(0, 0, 51);
+    margin-left: 190px;
+    margin-right: 80px;
+}
+
+.footer3 {
+    width: 310px;
+}
+
+.footer2-text1 {
+    font-size: 16px;
+}
+
+.footer2-text2 {
+    font-size: 22px;
+}
+
+.footer2-text3 {
+    font-size: 17px;
+}
+
+.footer2-text4 {
+    font-size: 12px;
+}
+
+.footer2-text5 {
+    font-size: 11px;
+}
+
+.events {
+    font-size: 11px;
+    margin-top: 50px;
+    color: rgb(95, 95, 95);
+}
+
+.no-events {
+    font-size: 18px;
+    margin-top: 5px;
+    color: rgb(48, 48, 48);
+}
+
+.blog-stats {
+    width: 100%;
+    color: rgb(73, 73, 73);
+    font-size: 11px;
+    padding-bottom: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(199, 199, 199);
+}
+
+.hits {
+    width: 100%;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.why {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+    width: 250px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(175, 175, 175);
+}
